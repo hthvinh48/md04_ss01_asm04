@@ -1,0 +1,13 @@
+#	Module (Service)	Trách nhiệm chính
+1	User & Identity Service	Đăng ký, đăng nhập, cấp và xác thực JWT, quản lý hồ sơ, địa chỉ giao hàng của người mua.
+2	Seller/Shop Management Service	Đăng ký gian hàng, xác minh người bán, quản lý thông tin shop, đánh giá uy tín shop.
+3	Product Catalog Service	Quản lý sản phẩm: tên, mô tả, hình ảnh, danh mục, giá niêm yết, biến thể (màu, size).
+4	Search & Recommendation Service	Tìm kiếm, lọc, sắp xếp, gợi ý sản phẩm theo hành vi người dùng.
+5	Inventory Service	Quản lý số lượng tồn kho, giữ hàng khi đặt, trừ/hoàn tồn khi xuất hoặc hủy đơn.
+6	Cart & Order Management Service	Giỏ hàng, tạo đơn, quản lý vòng đời đơn (chờ thanh toán, đã giao, đã hủy, trả hàng).
+7	Payment Service	Xử lý thanh toán (ví ShopeePay, thẻ, COD), đối soát, hoàn tiền.
+8	Promotion & Voucher Service	Quản lý voucher, flash sale, mã giảm giá, quy tắc áp dụng khuyến mãi.
+9	Shipping & Logistics Service	Tính phí vận chuyển, kết nối đơn vị vận chuyển, theo dõi trạng thái giao hàng.
+10	Review & Rating Service	Đánh giá sản phẩm và shop, hình ảnh/bình luận của người mua.
+11	Notification Service	Gửi thông báo đẩy, email, SMS (xác nhận đơn, giao hàng, khuyến mãi).
+12	Customer Support & Dispute Service	Chat hỗ trợ, khiếu nại, xử lý tranh chấp, yêu cầu trả hàng hoàn tiền.
